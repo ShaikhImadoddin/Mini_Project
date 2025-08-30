@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete EJS</title>
+</head>
+<body>
+    <p>Enter Following Details To delete user: <b><%= user.username %></b> having email <b><%=user.email%></b></p>
+    <form action="/user/<%=user.id%>?_method=DELETE" method="POST">
+          <input type="email" name="useremail" placeholder="Enter Email">
+          <input type="password" name="userpassword" placeholder="Enter Password">
+          <button type="submit">Delete User</button>
+    </form>
+</body>
+</html>
