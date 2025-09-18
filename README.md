@@ -25,8 +25,8 @@ It allows users to **add, edit, delete, and view user records** in a responsive 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/ShaikhImadoddin/Mini_Project.git
+   cd Mini_Project
    ```
 2. Install dependencies
     ```
